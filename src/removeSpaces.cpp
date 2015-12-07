@@ -13,7 +13,7 @@ NOTES: Don't create new string.
 
 #include<stdio.h>
 char removeSpaces(char *str) {
-	int i, j,count=0,k,l;
+	int i, j,count=0;
 	if (str==NULL)
 		return '\0';
 	for (i = 0, j = 0; str[i]; i++)
